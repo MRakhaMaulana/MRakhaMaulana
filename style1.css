@@ -1,0 +1,49 @@
+#menu {
+    float: left;
+    width: 1400px;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: aqua;
+}
+.judul {
+    display: block;
+    height: 40px;
+    background: darkblue;
+    font: 20pt "Script MT Bold";
+    color: deepskyblue;
+    text-align: center;
+    border: 1px solid black;
+}
+.judul_1 {
+    display: block;
+    height: 40px;
+    background: crimson;
+    font: 20pt "Script MT Bold";
+    color: deepskyblue;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#menu ul {
+    list-style: none;
+    width: 1315px;
+}
+#menu li a{
+    display: block;
+    height: 30px;
+    background: royalblue;
+    font: 16pt "Script MT Bold";
+    color: mintcream;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#menu li a:hover{
+    background: dodgerblue;
+    color: indigo;
+}
